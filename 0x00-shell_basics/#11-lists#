@@ -1,0 +1,5 @@
+#!/bin/bash
+echo ; ls -la; \
+parent_directory=$(dirname $(pwd)); \
+echo -e "\nFiles in the parent directory ($parent_directory):"; ls -la "$parent_directory"; \
+echo -e "\nFiles in the /boot directory:"; ls -la /boot
